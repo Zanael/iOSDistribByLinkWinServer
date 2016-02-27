@@ -1,0 +1,18 @@
+﻿<div class="jumbotron">
+    <h1>Get your UDID</h1>
+    <p><a href="/downloads/iphone-udid-zzzz.mobileconfig" class="btn btn-primary btn-lg">Take UDID</a></p>
+</div>
+<div class="row">
+    <a href="/downloads/iphone-udid-zzzz.crt" download class="btn btn-info">Install SSL-Certificate</a>
+    <p>
+        @{
+            foreach (iPhoneUDID.Models.iPhoneUDID item in ViewBag.UDIDs)
+            {
+                <h5>TimeAdded: @item.TimeAdded, UDID: @item.UDID</h5>
+            }
+        }
+    </p>
+</div>
+<div class="row">
+    @Html.ActionLink("Clear UDIDs list", "ClearHistory", "Home", null, new { @class = "btn btn-primary btn-large" })
+</div>

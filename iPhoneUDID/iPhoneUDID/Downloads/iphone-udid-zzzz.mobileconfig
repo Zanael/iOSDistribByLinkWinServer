@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>PayloadContent</key>
+        <dict>
+            <key>URL</key>
+            <string>https://iphone-udid-zzzz.com:9001/api/xml</string>
+            <key>DeviceAttributes</key>
+            <array>
+                <string>UDID</string>
+                <string>IMEI</string>
+                <string>ICCID</string>
+                <string>VERSION</string>
+                <string>PRODUCT</string>
+            </array>
+        </dict>
+        <key>PayloadOrganization</key>
+        <string>Corp Apps</string>
+        <key>PayloadDisplayName</key>
+        <string>CorpApps</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadUUID</key>
+        <string>B43A078F-E0E2-4F52-B1E6-C03AD7032EDF</string>
+        <key>PayloadIdentifier</key>
+        <string>com.CorpApps.profile-service</string>
+        <key>PayloadDescription</key>
+        <string>This temporary profile will be used to find and display your current device's UDID.</string>
+        <key>PayloadType</key>
+        <string>Profile Service</string>
+    </dict>
+</plist>
